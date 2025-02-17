@@ -5,11 +5,7 @@ import google.generativeai as gen_ai
 
 
 # Load environment variables
-hide_github_icon = """
-#MainMenu {
-  visibility: hidden;
-}
-"""
+
 st.markdown(hide_github_icon, unsafe_allow_html=True)
 # Configure Streamlit page settings
 st.set_page_config(
