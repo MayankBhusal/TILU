@@ -6,7 +6,7 @@ import google.generativeai as gen_ai
 
 # Load environment variables
 hide_github_icon = """
-#GithubIcon {
+#MainMenu {
   visibility: hidden;
 }
 """
