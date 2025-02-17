@@ -11,6 +11,12 @@ st.set_page_config(
     page_title="Chat with TILU AI!",
     page_icon=":brain:",  # Favicon emoji
     layout="centered",  # Page layout option
+     menu_items={  # Remove default options
+        'Get Help': None,
+        'Report a Bug': None,
+        'About': None
+    }
+
 )
 
 
