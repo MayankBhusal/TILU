@@ -6,7 +6,7 @@ import google.generativeai as gen_ai
 
 # Load environment variables
 
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 # Configure Streamlit page settings
 st.set_page_config(
     page_title="Chat with TILU AI!",
